@@ -22,7 +22,7 @@ body {
 }
 
 
-
+/* index.html */
 .main-content {
 	display: flex;
 	flex-direction: column;
@@ -47,6 +47,71 @@ body {
 	padding: 24px 49px;
 }
 
-.link:not(:last-child){
-	margin-right: 24px;
+.link:not(:last-child) {
+	margin-right: 25px;
+}
+
+
+
+/* article.html */
+.container {
+	margin: 0 auto;
+	padding: 80px 0;
+	width: 1170px;
+}
+
+.h1-title,
+.h2-title,
+.h3-title,
+.text,
+.list {
+	margin-top: 0;
+}
+
+.h1-title {
+	margin-bottom: 40px;
+}
+
+.h2-title,
+.h3-title {
+	margin-bottom: 10px;
+}
+
+.text {
+	width: 872px;
+	margin-bottom: 40px;
+}
+
+.gray-box {
+	border-radius: 20px;
+	padding: 30px;
+	background-color: #f3f3f3;
+}
+
+.gray-box:not(:last-child) {
+	margin-bottom: 40px;
+}
+
+.gray-box .text {
+	width: 692px;
+	margin-bottom: 10px;
+}
+
+.list {
+	padding-left: 15px;
+}
+
+.list-item:not(:last-child) {
+	margin-bottom: 20px;
+}
+
+.image {
+	margin-bottom: 40px;
+}
+
+.figure {
+	display: inline-block;
+	margin: 0;
+	margin-bottom: 40px;
+	width: 872px;
 }
