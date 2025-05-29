@@ -18,7 +18,7 @@ img {
 }
 
 body {
-	font-family: 'font', sans-serif;
+	font-family: Arial, Verdana, sans-serif;
 }
 
 
@@ -40,15 +40,31 @@ body {
 
 .links {
 	margin-bottom: 50px;
+	font-size: 18px;
+	font-weight: 700;
 }
 
 .link {
 	display: inline-block;
 	padding: 24px 49px;
+	background-color: #3f2aff;
+	font-size: 18px;
+	font-weight: 700;
 }
 
 .link:not(:last-child) {
 	margin-right: 25px;
+}
+
+.link-download {
+	width: 250px;
+	background-image: url("/img/download.png");
+	background-repeat: no-repeat;
+	background-position: left;
+	color: #3f2aff;
+	font-size: 18px;
+	font-weight: 700;
+	text-align: center;
 }
 
 
@@ -70,6 +86,23 @@ body {
 
 .h1-title {
 	margin-bottom: 40px;
+	color: #333;
+	font-weight: 400;
+	font-size: 60px;
+	line-height: 60px;
+}
+
+.h2-title {
+	color: #333;
+	font-size: 40px;
+	line-height: 46px;
+}
+
+.h3-title {
+	color: #333;
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 34px;
 }
 
 .h2-title,
@@ -80,12 +113,37 @@ body {
 .text {
 	width: 872px;
 	margin-bottom: 40px;
+	color: #333;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 32px;
+}
+
+.text-accent {
+	width: 100%;
+	padding: 50px 95px;
+	border-radius: 20px;
+	background-color: #3f2aff;
+	color: white;
+	font-weight: 700;
+	font-size: 30px;
 }
 
 .gray-box {
 	border-radius: 20px;
 	padding: 30px;
 	background-color: #f3f3f3;
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: contain;
+}
+
+.gray-box-bg {
+	background-image: url("/img/decorate-1.png");
+}
+
+.gray-box-bg2 {
+	background-image: url("/img/decorate-2.png");
 }
 
 .gray-box:not(:last-child) {
@@ -101,6 +159,16 @@ body {
 	padding-left: 15px;
 }
 
+.list-item::marker {
+	color: #3f2aff;
+}
+
+.list-item a {
+	border-bottom: 1px solid #3f2aff;
+	color: #3f2aff;
+	font-size: 20px;
+}
+
 .list-item:not(:last-child) {
 	margin-bottom: 20px;
 }
@@ -114,4 +182,13 @@ body {
 	margin: 0;
 	margin-bottom: 40px;
 	width: 872px;
+	font-size: 0;
+}
+.figure figcaption{
+	padding: 19px 0;
+	border: 1px solid #b6b6b6;
+	border-top: none;
+	font-weight: 400;
+	font-size: 14px;
+text-align: center;
 }
