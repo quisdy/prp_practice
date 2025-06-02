@@ -213,7 +213,7 @@ body {
 	display: inline-block;
 	width: 160px;
 	margin-bottom: 25px;
-	background-image: url("/img/Arrow-left.svg");
+	background-image: url("../img/Arrow-left.svg");
 	background-repeat: no-repeat;
 	background-position: left;
 	color: #3F2AFF;
